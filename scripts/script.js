@@ -26,6 +26,14 @@ new Vue({
           favorited: true
         },
         {
+          name: "TheOneThatGo",
+          artist: "Away Brielle",
+          cover: "img/11.jpg",
+          source: "mp3/infinity.mp3",
+          url: "https://www.youtube.com/watch?v=TDCDhlq-Los",
+          favorited: false
+        },
+        {
           name: "Sadness and Sorrow",
           artist: "Taylor Davis",
           cover: "img/2.jpg",
@@ -42,19 +50,19 @@ new Vue({
           favorited: true
         },
         {
-          name: "Sakura",
-          artist: "Ikimono-gakari",
-          cover: "img/22.jpg",
-          source: "mp3/sakura.mp3",
-          url: "https://www.youtube.com/watch?v=6tmhg_QFPcg",
-          favorited: true
-        },
-        {
           name: "Nhắm Mắt Thấy Mùa Hè",
           artist: "Nguyên Hà",
           cover: "img/3.jpg",
           source: "mp3/nhammatthaymuahe.mp3",
           url: "https://www.youtube.com/watch?v=fgpwTxIv76Q",
+          favorited: true
+        },
+        {
+          name: "Sakura",
+          artist: "Ikimono-gakari",
+          cover: "img/ii.jpg",
+          source: "mp3/sakura.mp3",
+          url: "https://www.youtube.com/watch?v=6tmhg_QFPcg",
           favorited: true
         },
         {
@@ -68,7 +76,7 @@ new Vue({
         {
           name: "Chuyện Đôi Ta",
           artist: "Emcee L ft Muộii",
-          cover: "img/9.jpg",
+          cover: "img/cute.jpg",
           source: "mp3/chuyendoita.mp3",
           url: "https://www.youtube.com/watch?v=mTZL5OoG_0Q",
           favorited: false
@@ -84,7 +92,7 @@ new Vue({
         {
           name: "Chưa Từng Thương Ai Đến Vậy",
           artist: "Bảo Ngọc",
-          cover: "img/5.jpg",
+          cover: "img/8.jpg",
           source: "mp3/chuatungthuongaidenv.mp3",
           url: "https://www.youtube.com/watch?v=C4wbMmAD9Ag",
           favorited: true
