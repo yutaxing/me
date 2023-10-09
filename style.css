@@ -115,8 +115,8 @@ h4.custom-text {
     top: auto; 
     right: auto; 
     bottom: auto; 
-    margin-bottom: -40%; 
-    margin-top: -10%;
+    margin-bottom: -10%; 
+    margin-top: -18%;
     width: 100%;
   }
 }
@@ -722,7 +722,7 @@ nav .fas {
       top: 0;
       width: 120px;
       right: 0;
-      height: 41vh;
+      height: 37vh;
       border-bottom-left-radius: 10px;
       padding-top: 5px;
       transform: translateX(200px);

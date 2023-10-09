@@ -219,7 +219,7 @@
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
                     <p><i class="fas fa-envelope"></i> trinhkhanhbyt@gmail.com</p>
-                    <p><i class="fas fa-phone-square-alt"></i> 0942469663</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 0942469JQK</p>
                     <div class="social-icons">
                         <a href="https://www.facebook.com/trinhkhanh04"><i class="fab fa-facebook"></i></a>
                         <a href="https://github.com/yutaxing"><i class="fab fa-github"></i></a>
@@ -230,7 +230,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p>copyright @ xHanKt. Made with <i class="fas fa-heart"></i> by xHanKt</p>
+            <p>Hạnh phúc là mang lại hạnh phúc cho người khác <i class="fas fa-heart"></i> </p>
         </div>
     </div>
     <script>
@@ -252,30 +252,26 @@
         var menuButton = document.querySelector('.fas.fa-bars');
         var closeButton = document.querySelector('.fas.fa-times');
         var navMenu = document.querySelector('nav ul');
-
-        // Hàm kiểm tra kích thước màn hình và điều chỉnh menu
         function adjustMenu() {
             if (window.innerWidth < 700) {
-                menuButton.style.display = 'block'; // Hiển thị nút menu ở màn hình nhỏ
-                navMenu.classList.remove('show'); // Ẩn menu nếu đang mở
+                menuButton.style.display = 'block'; 
+                navMenu.classList.remove('show'); 
             } else {
-                menuButton.style.display = 'none'; // Ẩn nút menu ở màn hình lớn
-                navMenu.classList.remove('show'); // Ẩn menu nếu đang mở
+                menuButton.style.display = 'none'; 
+                navMenu.classList.remove('show'); 
             }
         }
 
         menuButton.addEventListener('click', function () {
             if (window.innerWidth < 700) {
                 navMenu.classList.add('show');
-                menuButton.style.display = 'none'; // Ẩn nút menu khi menu được mở (điều này chỉ xảy ra ở màn hình nhỏ)
+                menuButton.style.display = 'none'; 
             }
         });
         closeButton.addEventListener('click', function () {
             closeMenu();
         });
-        // Thêm sự kiện khi nhấn bất kỳ nơi nào trên trang
         document.addEventListener('click', function (event) {
-            // Kiểm tra xem sự kiện click có xảy ra bên ngoài menu và nút menu không
             if (!navMenu.contains(event.target) && event.target !== menuButton) {
                 closeMenu();
             }
@@ -283,12 +279,10 @@
         function closeMenu() {
             navMenu.classList.remove('show');
             if (window.innerWidth < 700) {
-                menuButton.style.display = 'block'; // Hiển thị lại nút menu khi menu được đóng (điều này chỉ xảy ra ở màn hình nhỏ)
+                menuButton.style.display = 'block';
             }
         }
-        // Sử dụng sự kiện resize để điều chỉnh menu khi kích thước màn hình thay đổi
         window.addEventListener('resize', adjustMenu);
-        // Gọi hàm để điều chỉnh menu ban đầu
         adjustMenu();
 
     </script>

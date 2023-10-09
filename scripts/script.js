@@ -18,6 +18,14 @@ new Vue({
           favorited: true
         },
         {
+          name: "Shitsui",
+          artist: "Despair",
+          cover: "img/10.jpg",
+          source: "mp3/shitsui.mp3",
+          url: "https://www.youtube.com/watch?v=71_VnZsHpWM",
+          favorited: true
+        },
+        {
           name: "Sadness and Sorrow",
           artist: "Taylor Davis",
           cover: "img/2.jpg",
