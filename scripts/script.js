@@ -29,7 +29,7 @@ new Vue({
           name: "TheOneThatGo",
           artist: "Away Brielle",
           cover: "img/11.jpg",
-          source: "mp3/infinity.mp3",
+          source: "mp3/TheOneThatGo.mp3",
           url: "https://www.youtube.com/watch?v=TDCDhlq-Los",
           favorited: false
         },
